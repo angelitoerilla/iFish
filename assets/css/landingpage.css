@@ -14,12 +14,37 @@
 
 .jumbocontainer {
 	background-color: lightblue;
-	opacity: 0.5;
+	opacity: 0.8;
 	padding: 25px;
 	margin-top: 160px;
+	border-radius: 25px;
+
+
 }
 
 .jumbocontainer:hover {
-	opacity: .7;
+	opacity: 1;
+}
+
+.icon1 {
+	color: grey;
+	margin-right: 30px;
+}
+
+
+.nav-link	{
+	text-align: right;
+}
+
+.jumboh1 {
+	font-family: 'Coiny', cursive;
+}
+
+.jumboh2 {
+	font-family: 'Indie Flower', cursive;
+}
+
+.hook {
+	font-family: 'Righteous', cursive;
 }
 
