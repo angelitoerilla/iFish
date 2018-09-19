@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-image: url("../img/jumbo1.jpeg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+
+.jumbocontainer {
+	background-color: lightblue;
+	opacity: 0.5;
+	padding: 25px;
+	margin-top: 160px;
+}
+
+.jumbocontainer:hover {
+	opacity: .7;
+}
+
