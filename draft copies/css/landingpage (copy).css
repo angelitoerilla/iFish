@@ -6,21 +6,29 @@
 
 .jumbotron {
 	height: 100vh;
-	background-image: url("../img/testtank3.jpg");
+	background-image: url("../img/jumbo1.jpeg");
 	background-repeat: none;
 	background-size: cover;
 }
 
+
 .jumbocontainer {
 	background-color: lightblue;
-	opacity: 0.5;
+	opacity: 0.8;
 	padding: 25px;
-	margin-top: 180px;
+	margin-top: 160px;
 	border-radius: 25px;
+
+
 }
 
 .jumbocontainer:hover {
-	opacity: 0.8;
+	opacity: 1;
+}
+
+.icon1 {
+	color: grey;
+	margin-right: 30px;
 }
 
 
@@ -39,23 +47,4 @@
 .hook {
 	font-family: 'Righteous', cursive;
 }
-
-@media only screen and (max-width: 500px) {
-	.jumbocontainer {
-		width: 270px;
-		margin-top: 300px;
-	}
-	.jumboh1 {
-		font-size: 48px;
-	}
-	.jumboh2 {
-		font-size: 1rem;
-	}
-
-	.hook {
-		font-size: 1rem;
-	}
-
-}
-
 

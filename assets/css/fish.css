@@ -3,3 +3,26 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.articlecontainer {
+	height: 100%;
+	background-image: url("../img/plantbackground.jpg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+footer {
+	background-color: #827160;
+}
+
+.fishcard {
+	margin: 0 1px;
+	border: 3px solid black;
+	width: 100%;
+	background-color: lightgrey;
+	opacity: 0.5;
+}
+
+.description {
+	opacity: 1;
+}
