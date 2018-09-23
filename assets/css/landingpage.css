@@ -15,7 +15,7 @@
 	background-color: lightblue;
 	opacity: 0.5;
 	padding: 25px;
-	margin-top: 180px;
+	margin-top: 230px;
 	border-radius: 25px;
 }
 
@@ -40,16 +40,17 @@
 	font-family: 'Righteous', cursive;
 }
 
-@media only screen and (max-width: 500px) {
+/*for mobile*/
+@media only screen and (max-width: 450px) {
 	.jumbocontainer {
-		width: 270px;
-		margin-top: 300px;
+		width: 95%;
+		margin-top: 210px;
 	}
 	.jumboh1 {
-		font-size: 48px;
+		font-size: 3rem;
 	}
 	.jumboh2 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	.hook {
@@ -58,4 +59,41 @@
 
 }
 
+/*for tablet*/
+@media only screen and (min-width: 451px)
+and (max-width: 768px) {
+	.jumbocontainer {
+		width: 95%;
+		margin-top: 240px;
+	}
+	.jumboh1 {
+		font-size: 4rem;
+	}
+	.jumboh2 {
+		font-size: 2rem;
+	}
+
+	.hook {
+		font-size: 1rem;
+	}
+	
+}
+
+/*for desktop*/
+@media only screen and (min-width: 769px) {
+	.jumbocontainer {
+		
+		margin-top: 200px;
+	}
+	.jumboh1 {
+		font-size: 5rem;
+	}
+	.jumboh2 {
+		font-size: 3rem;
+	}
+
+	.hook {
+		font-size: 2rem;
+	}
+}
 
