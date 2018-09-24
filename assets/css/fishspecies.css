@@ -26,6 +26,10 @@ footer {
 	background-color: lightblue;
 }
 
+.modal-footer {
+	background-color: lightblue;
+}
+
 .ace-copy {
 	margin-top: 55px;
 }
