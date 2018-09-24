@@ -1,4 +1,4 @@
-* * {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -6,6 +6,7 @@
 
 .articlecontainer {
 	height: 100%;
+	/*background-color: lightblue;*/
 	background-image: url("../img/tankhd2.jpg");
 	background-repeat: none;
 	background-size: cover;
@@ -15,14 +16,28 @@ footer {
 	background-color: #827160;
 }
 
-.fishcard {
-	margin: 0 1px;
+
+
+
+.descriptioncard {
+	margin-top: 10px;
 	border: 3px solid black;
 	width: 100%;
 	background-color: lightgrey;
 	opacity: 0.5;
+	padding-left: 8px;
+	padding-right: 3px;
+	
+
 }
 
-.description {
+#description {
 	opacity: 1;
 }
+
+.lowered {
+	margin-top: 50px;
+}
+
+
+

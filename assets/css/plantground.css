@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.mainrow {
+	height: 100%;
+	background-color: ;
+}
+
+footer {
+	background-color: #827160;
+}
+
+.modal-header {
+	background-color: lightgrey;
+}
+
+.modal-header {
+	background-color: lightgrey;
+}
+
+
+.articlecontainer {
+	height: 100%;
+	background-image: url("../img/rock1.jpg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+#card {
+	background-color: lightgrey;
+}
