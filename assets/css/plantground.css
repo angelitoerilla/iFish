@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'ABeeZee', sans-serif;
+
 }
 
 .mainrow {
@@ -17,7 +19,7 @@ footer {
 	background-color: lightgrey;
 }
 
-.modal-header {
+.modal-footer {
 	background-color: lightgrey;
 }
 
@@ -31,4 +33,48 @@ footer {
 
 #card {
 	background-color: lightgrey;
+
+}
+
+.footer {
+	background-color: #827160;
+	width: 100%;
+	height: 5%;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 450px) {
+	
+
+	.sources2 {
+	margin-top: 0;
+	} 
+
+	#card {
+	background-color: lightgrey;
+	margin-bottom: 12px;
+	}
+}
+
+/*for tablet*/
+@media only screen and (min-width: 451px)
+and (max-width: 768px) {
+	
+
+	.sources2 {
+	margin-top: 0;
+	}
+
+	#card {
+	background-color: lightgrey;
+	margin-bottom: 15px;
+	}
+}
+
+/*for desktop*/
+@media only screen and (min-width: 769px) {
+
+	.sources2 {
+	margin-top: 25px;
+	}
 }

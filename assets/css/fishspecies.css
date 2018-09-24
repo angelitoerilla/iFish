@@ -2,6 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.mainrow {
+	height: 100%;
+	/*background-color: lightblue;*/
+	background-image: url("../img/tankhd2.jpg");
+	background-repeat: none;
+	background-size: cover;
 }
 
 .mainrow {
@@ -14,6 +23,23 @@ footer {
 }
 
 .modal-header {
-	background-color: lightpink;
+	background-color: lightblue;
 }
 
+.ace-copy {
+	margin-top: 55px;
+}
+
+.card {
+	opacity: 0.8;
+}
+
+.footer {
+	background-color: #827160;
+	width: 100%;
+	height: 5%;
+}
+
+.ace-copy {
+	margin-top: 55px;
+}

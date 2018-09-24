@@ -15,15 +15,16 @@
 .row1 {
 	border: 1px solid grey;
 }
-.row2 {
-	border-right: 1px solid grey;
-	border-left: 1px solid grey;
-	border-bottom: 1px solid grey;
+.col1, .col3 {
+	margin-top: 20px;
 }
 
-.col1 {
-	border-right: 1px solid grey;
+.col2{
+	margin-top: 180px;
+
 }
+
+
 
 .article-container {
 	background-color: lightblue;
@@ -39,7 +40,7 @@
 }
 
 .learning-text {
-	margin-top: 95px;
+	margin-top: 40px;
 }
 
 .educ-link {
@@ -57,41 +58,17 @@
 
 /*for mobile*/
 @media only screen and (max-width: 450px) {
-	.artificial-col {
+	.col2{
 	margin-top: 0;
-	}
-
-	.learning-text {
-	margin-top: 0;
-	}
-
-	.educ-link {
-	margin-top: 0;
-	}
-
-	.sources2 {
-	margin-top: 0;
-	} 
+		}
 }
 
 /*for tablet*/
 @media only screen and (min-width: 451px)
 and (max-width: 768px) {
-	.artificial-col {
+	.col2{
 	margin-top: 0;
-	}
-
-	.learning-text {
-	margin-top: 0;
-	}
-
-	.educ-link {
-	margin-top: 0;
-	}
-
-	.sources2 {
-	margin-top: 0;
-	}
+		}
 }
 
 /*for desktop*/
@@ -107,20 +84,9 @@ and (max-width: 768px) {
 	   width:100%; /*make image streatch*/
 	}
 
-	.plant-img {
-		margin: -4%;
-	}
-
-	.fish-img {
-		margin: -5%;
-	}
-
-	.learn-img {
-		width: 95%;
-	}
-
 	.sources2 {
 	margin-top: 25px;
 	}
+
 }
 
