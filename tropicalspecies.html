@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<!-- device compatability -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<!-- browser compatability -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/fishspecies.css">
+
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- bootstrap js -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/fishfavicon.ico">
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+
+
+	<title>iFish</title>
+</head>
+<body>
+
+	<div class="container-fluid px-0">
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+			<a id="jumbodrop" href="home.html" class="navbar-brand"><img src="./assets/img/iFish4.png" width="75px"></a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=#navbarMenu></button>
+
+			<div class="collapse navbar-collapse" id="navbarMenu">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="fish.html">Fish</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="plant.html">Plant</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav> 
+		<!-- end of nav -->
+
+
+
+		<div class="container-fluid articlecontainer">
+			<div class="row mainrow">
+				<div class="offset-lg-1 col-lg-10 col-md-12 col-sm-12 py-3">
+					<div class="row row1">
+						
+					<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#guppiesModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_Guppies.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Guppies</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="guppiesModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_Guppies.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Guppies</h4>
+						      		<br>
+						            <p>Guppies are colorful tropical fish that are easy to care for, making them a perfect choice for those new to aquarium keeping. 
+							  		</p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+
+					<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#neontetraModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_NeonTetra.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Neon Tetra</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="neontetraModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_NeonTetra.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Neon Tetra</h4>
+						      		<br>
+						            <p>Tiny but incredibly vibrant, Neon Tetras are schooling fish. Meaning, they thrive in groups. We recommend getting at least six to start. </p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+
+					<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#platiesModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_Platies.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Platies</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="platiesModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_Platies.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Platies</h4>
+						      		<br>
+						            <p>These fish have a very peaceful disposition and are perfect for mixing in a community tank with other non-aggressive fish.</p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+
+					<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#swordtailModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_Swordtail.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Swordtais</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="swordtailModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_Swordtail.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Swordtails</h4>
+						      		<br>
+						            <p>Perfect for those new to the hobby, Swordtails thrive in communities. We recommend getting at least five or more to start. </p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+					
+					</div>	<!--  end of row 1-->
+
+					<div class="row row2 mt-3">
+
+						<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#zebradanioModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_ZebraDanio.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Zebra Danio</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="zebradanioModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_ZebraDanio.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Zebra Danio</h4>
+						      		<br>
+						            <p>These black-and-white striped beauties can be slightly aggressive. At the same time, they can do well in mixed groups of fish when properly cared for and fed.  
+ 
+									</p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+
+						<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#coryModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_CoryCat.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Cory Catfish</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="coryModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_CoryCat.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Cory Catfish</h4>
+						      		<br>
+						            <p>Known for their peaceful nature, these fish are a great addition to any community tank.
+ 
+									</p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+
+					<!-- article card -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<a data-toggle="modal" data-target="#tigerModal"><div id="card" class="card">
+								<img src="./assets/img/Tropical_TigerPleco.png" class="card-img-top img-fluid">
+								<p class="mt-3 text-center"><button class="btn btn-link">Tiger Plecos</button></p>
+
+							</div></a>
+						</div>
+
+					<!-- modal desc -->
+						<div class="modal fade" id="tigerModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle"><img class="img-fluid" src="./assets/img/Tropical_TigerPleco.png"></h5>
+						        <button type="button" class="close" data-dismiss="modal">
+						          <span>&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						      		<h4>Tiger Plecos</h4>
+						      		<br>
+						            <p>This beautiful bottom feeder, while peaceful, can be a bit territorial. We recommend filling the bottom of your tank with rocks and ornaments to give them a place to roam and call their own.
+ 
+									</p>
+						      	
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- end of modal -->
+						
+					</div>	<!--  end of row 2-->
+
+				</div>
+				<!-- end of whole column -->
+			</div>
+		</div>	<!-- end of mainrow -->
+
+			
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="container col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+					<div class="row footer-row">
+						<div class="footer1 col-lg-4 col-md-6 col-sm-6">
+							<p>Disclaimer:<br>
+							No copyright infringement intended.<br>
+							For educational purposes only.<br>
+							Logo, images and content are from Google search.</p>
+						</div>
+						<div class="footer2 col-lg-3 col-md-3 col-sm-3">
+						     <p>Sources:<br>
+						     <a href="https://www.liveaquaria.com">www.liveaquaria.com</a><br>
+						     <a href="http://www.tetra-fish.com">www.tetra-fish.com</a><br>
+						     <a href="http://www.allaquariuminfo.com">www.allaquariuminfo.com</a><br>
+						     <a href="https://www.wikihow.com">www.wikihow.com</a><p>
+						 	 
+						</div>
+						<div class="footer3 col-lg-3 col-md-3 col-sm-3 sources2">
+						     <p><a href="https://pethelpful.com">https://pethelpful.com<br>
+						     <a href="https://lovefishtank.com">lovefishtank.com</a><br>
+						     <a href="http://aquaticplants.animal-world.com">aquaticplants.animal-world.com</a><br>
+						     and others not mentioned</p>
+
+						</div>
+						<div class="footer4 col-lg-2">
+							<footer>
+								<p class="footer text-center ace-copy"><small>Angelito Erilla &copy; 2018</small>  </p>	
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- end of footer -->
+
+	</div> 
+	<!-- end of gallery container -->
+
+	
+
+</body>
+</html
